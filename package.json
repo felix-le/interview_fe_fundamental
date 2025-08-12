@@ -1,0 +1,18 @@
+{
+  "name": "interview_fe_fundamental",
+  "version": "1.0.0",
+  "description": "Frontend fundamentals learning environment with TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node --watch src/index.ts"
+  },
+  "keywords": ["typescript", "frontend", "fundamentals"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  }
+} 

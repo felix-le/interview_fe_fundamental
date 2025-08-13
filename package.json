@@ -5,7 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "dev": "ts-node --watch src/index.ts"
+    "dev": "ts-node --watch src/index.ts",
+    "host":" cd src/understand_web_worker && python3 -m http.server 8000",
+    "stop":"pkill -f http.server"
   },
   "keywords": ["typescript", "frontend", "fundamentals"],
   "author": "",

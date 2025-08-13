@@ -1,3 +1,5 @@
+# Event loop
+
 Event loop is like a manager.
 JavaScript/Node.js runs on a single thread, executing one operation at a time from the call stack.
 Synchronous code is executed immediately on the stack, while asynchronous operations are handled in the background (thread pool or Web APIs). Once completed, their callbacks go into the callback queue.
@@ -22,3 +24,11 @@ console.log("End");
 // Promise callback
 // Timeout callback
 ```
+
+## Agent execution model
+
+> Each autonomous executor of JS is called an agent
+
+- Heap: a large region of memory.
+- Queue: event loop: first-in-first-out
+- Stack: last-in-first-out.

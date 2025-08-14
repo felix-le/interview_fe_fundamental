@@ -64,3 +64,4 @@ function getVisibleItems(allItems) {
 const visibleResults = getVisibleItems(largeArrayOfItems);
 updateUI(visibleResults);
 ```
+

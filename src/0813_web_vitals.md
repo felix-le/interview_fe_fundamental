@@ -1,5 +1,5 @@
  ### **Web Vitals: Enhanced Notes**
-
+https://web.dev/articles/vitals
 **Definition:** An initiative by Google to provide unified guidance for quality signals that are essential for delivering a great user experience on the web.
 
 ---
